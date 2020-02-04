@@ -42,7 +42,7 @@ public class Activity1PayStub
         System.out.printf(format1, name, ssn);
         String format2 = "Regualar Hours: %-8d Reg Rate: $%-8.2f Reg Pay: $%-8.2f\n";
         System.out.printf(format2, Rhours, rate, Rpay);
-        String format3 = "Overtime Hours: %-8d OT Rate: $%-8.2f OT Pay: $%-8.2f\n";
+        String format3 = "Overtime Hours: %-7d OT Rate: $%-9.2f OT Pay: $%-8.2f\n";
         System.out.printf(format3, Ohours, Orate, Opay);
         String format4 = "Gross Pay: $%-8.2f\n";
         System.out.printf(format4, Gpay);
