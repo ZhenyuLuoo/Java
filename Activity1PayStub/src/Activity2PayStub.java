@@ -6,7 +6,7 @@ public class Activity2PayStub
     public static final double SOCIAL_SECURITY_WITHHOLDING = 0.1;
     public static final double FEDERAL_TAX = 0.2;
     private String name;
-	private String ssn;
+    private String ssn;
     private int Rhours, Ohours;
     private double rate, Rpay, Orate, Opay, Gpay, ssw, Ftax, Npay;
     /**
